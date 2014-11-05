@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="javaZoomPlayer" value="project"/>
+		<level name="MP3SPI 1.9.5" value="project"/>
+	</levels>
+</component>
