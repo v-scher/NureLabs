@@ -34,4 +34,11 @@ public class Population {
     public void saveIndividual(int index, Individual indiv) {
         individuals[index] = indiv;
     }
+
+    public boolean contains(Individual child) {
+        for (int i = 0; i < individuals.length; i++)
+            if (child.equals(individuals[i]))
+                return true;
+        return false;
+    }
 }

@@ -12,17 +12,19 @@ public class Individual implements Comparable<Individual> {
 
     private long genes = 0;
     private double func = 0;
+    private double x1;
+    private double x2;
 
     public Individual() {
-        int i1 = R.nextInt(Integer.MAX_VALUE);
-        int i2 = R.nextInt(Integer.MAX_VALUE);
+        double i1 = R.nextInt(Integer.MAX_VALUE);
+        double i2 = R.nextInt(Integer.MAX_VALUE);
 
-        genes = i1;
+        genes = (int)i1;
         genes = genes << Integer.SIZE;
-        genes = genes | i2;
+        genes = genes | (int)i2;
 
-        double x1 = L1 + (R1 - L1) * i1 * 1.0 / Integer.MAX_VALUE;
-        double x2 = L2 + (R2 - L2) * i2 * 1.0 / Integer.MAX_VALUE;
+        x1 = L1 + (R1 - L1) * (i1 / Integer.MAX_VALUE);
+        x2 = L2 + (R2 - L2) * (i2 / Integer.MAX_VALUE);
 
         func = (-2.0 * Math.pow(x2, 3) + 6 * x2 * x2 + 10) * Math.sin(Math.log(x1) * Math.exp(x2));
     }
@@ -30,8 +32,8 @@ public class Individual implements Comparable<Individual> {
     private Individual(long newGenes) {
         genes = newGenes;
 
-        double x1 = L1 + (R1 - L1) * (newGenes >> Integer.SIZE) / Integer.MAX_VALUE;
-        double x2 = L2 + (R2 - L2) * ((int) newGenes) / Integer.MAX_VALUE;
+        x1 = L1 + (R1 - L1) * (newGenes >> Integer.SIZE) / Integer.MAX_VALUE;
+        x2 = L2 + (R2 - L2) * ((int) newGenes) / Integer.MAX_VALUE;
 
         func = (-2.0 * Math.pow(x2, 3) + 6 * x2 * x2 + 10) * Math.sin(Math.log(x1) * Math.exp(x2));
     }
@@ -81,9 +83,17 @@ public class Individual implements Comparable<Individual> {
 
     @Override
     public String toString() {
-        double x1 = L1 + (R1 - L1) * (genes >> Integer.SIZE);
-        double x2 = L2 + (R2 - L2) * (int) genes;
-        return "x1=" + x1 + ",\t\tx2=" + x2 + ",\t\tfunc=" + func;
+        return "x1 = " + x1 + ",\t\tx2 = " + x2 + ",\t\tfunc = " + func;
+    }
+
+    public double getDistance(Individual individual) {
+        double x1 = L1 + (R1 - L1) * (genes >> Integer.SIZE) / Integer.MAX_VALUE;
+        double y1 = L2 + (R2 - L2) * ((int) genes) / Integer.MAX_VALUE;
+
+        double x2 = L1 + (R1 - L1) * (individual.genes >> Integer.SIZE) / Integer.MAX_VALUE;
+        double y2 = L2 + (R2 - L2) * ((int) individual.genes) / Integer.MAX_VALUE;
+
+        return Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
     }
 
     @Override

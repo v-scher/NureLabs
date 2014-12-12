@@ -1,6 +1,8 @@
 package ua.nure.shcherbatenko.course5.NtaGA.lab1;
 
 
+import java.util.Random;
+
 public class GeneticAlgorithm {
 
     public static final double MUTATION_RATE = 0.015;
@@ -17,14 +19,39 @@ public class GeneticAlgorithm {
         }
 
         for (int i = elitismOffset; i < pop.size(); i++) {
-            Individual parent1 = tournamentSelection(pop);
-            Individual parent2 = tournamentSelection(pop);
-            Individual child = parent1.crossover(parent2);
-            child.mutate();
+            Individual child;
+            do {
+                Individual parent1 = randomSelection(pop);
+                Individual parent2 = inbreedingSelection(pop, parent1);
+                child = parent1.crossover(parent2);
+                child.mutate();
+            } while(nextGeneration.contains(child));
             nextGeneration.saveIndividual(i, child);
         }
 
         return nextGeneration;
+    }
+
+    private static Individual randomSelection(Population p) {
+        return p.getIndividual((int) (Math.random() * p.size()));
+    }
+
+    private static Individual inbreedingSelection(Population p, Individual firstParent) {
+        Individual closest = p.getIndividual(0);
+        double dist = Double.MAX_VALUE;
+
+        Individual ind;
+        for (int i = 1; i < p.size(); i++) {
+            ind = p.getIndividual(i);
+            if (ind == null || ind.equals(closest))
+                continue;
+            double newDist = firstParent.getDistance(ind);
+            if (newDist < dist) {
+                dist = newDist;
+                closest = ind;
+            }
+        }
+        return closest;
     }
 
     private static Individual tournamentSelection(Population pop) {
@@ -37,8 +64,6 @@ public class GeneticAlgorithm {
 
         return tournament.getFittest();
     }
-
-    // Інбридинг	З витис-ненням
     
     public static void main(String[] args) {
         Population p = new Population(50, true);
