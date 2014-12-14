@@ -3,7 +3,7 @@ package ua.nure.course5.TSSA.lab1.Shcherbatenko;
 import java.util.Arrays;
 
 public class Criteria {
-
+// YOOO
 	static final double[][] S = new double[][] {
 		{0.318,	0.484},
 		{0.301,	0.659},
