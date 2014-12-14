@@ -13,7 +13,7 @@ public class Population {
         }
     }
 
-    public Individual getFittest() {
+    public Individual getBest() {
         Individual fittest = individuals[0];
         for (int i = 1; i < size(); i++) {
             if (individuals[i].compareTo(fittest) > 0) {
@@ -21,6 +21,16 @@ public class Population {
             }
         }
         return fittest;
+    }
+
+    public Individual getWorst() {
+        Individual worst = individuals[0];
+        for (int i = 1; i < size(); i++) {
+            if (individuals[i].compareTo(worst) < 0) {
+                worst = individuals[i];
+            }
+        }
+        return worst;
     }
 
     public int size() {
@@ -35,10 +45,4 @@ public class Population {
         individuals[index] = indiv;
     }
 
-    public boolean contains(Individual child) {
-        for (int i = 0; i < individuals.length; i++)
-            if (child.equals(individuals[i]))
-                return true;
-        return false;
-    }
 }

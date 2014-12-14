@@ -1,84 +1,76 @@
 package ua.nure.course5.NtaGA.lab1.Kuprienko;
 
+import java.util.Random;
+
 public class GeneticAlgorithm {
 
     public static final double MUTATION_RATE = 0.015;
-    private static final int TOURNAMENT_SIZE = 5;
-    private static final boolean ELITISM_ON = true;
 
-    public static Population evolvePopulation(Population pop) {
+    private static final Random R = new Random();
+
+    public static Population evolve(Population pop) {
         Population nextGeneration = new Population(pop.size(), false);
-        int elitismOffset;
 
-        if (ELITISM_ON) {
-            nextGeneration.saveIndividual(0, pop.getFittest());
-            elitismOffset = 1;
-        }
-
-        for (int i = elitismOffset; i < pop.size(); i++) {
+        for (int i = 0; i < pop.size(); i++) {
             Individual child;
-            do {
-                Individual parent1 = randomSelection(pop);
-                Individual parent2 = inbreedingSelection(pop, parent1);
-                child = parent1.crossover(parent2);
-                child.mutate();
-            } while(nextGeneration.contains(child));
+            Individual parent1 = selection(pop);
+            Individual parent2 = selection(pop);
+            child = parent1.crossover(parent2);
+            child.mutate();
             nextGeneration.saveIndividual(i, child);
         }
 
         return nextGeneration;
     }
 
-    private static Individual randomSelection(Population p) {
-        return p.getIndividual((int) (Math.random() * p.size()));
-    }
+    private static Individual selection(Population p) {
+        double min = p.getWorst().getFunc();
 
-    private static Individual inbreedingSelection(Population p, Individual firstParent) {
-        Individual closest = p.getIndividual(0);
-        double dist = firstParent.getDistance(closest);
-
-        Individual ind;
-        for (int i = 1; i < p.size(); i++) {
-            ind = p.getIndividual(i);
-            if (ind == null || ind.equals(closest))
-                continue;
-            double newDist = firstParent.getDistance(ind);
-            if (newDist < dist) {
-                dist = newDist;
-                closest = ind;
-            }
+        double sum = 0;
+        for (int i = 0; i < p.size(); i++) {
+             sum  += p.getIndividual(i).getFunc() - min;
         }
-        return closest;
-    }
+        double avg = sum/p.size();
 
-    private static Individual tournamentSelection(Population pop) {
-        Population tournament = new Population(TOURNAMENT_SIZE, false);
+        Individual currentIndividual;
+        // начало отбора
+        do {
+            // значение рулетки
+            double randPosition = R.nextDouble() * sum;
 
-        for (int i = 0; i < TOURNAMENT_SIZE; i++) {
-            int randomId = (int) (Math.random() * pop.size());
-            tournament.saveIndividual(i, pop.getIndividual(randomId));
-        }
+            int currentNum = 0;
+            // сумма значений функции соответствия
+            double currentSum = 0;
+            do { // поиск нужной особи
+                currentIndividual = p.getIndividual(currentNum++);
+                // увеличиваем сумму на величину функции соответствия
+                currentSum += currentIndividual.getFunc() - min;
+                // пока сумма не перешагнет значение рулетки
+            } while (currentSum < randPosition);
+            // если значение функции соответствия више среднего - отбор окончен
+        } while (currentIndividual.getFunc() - min < avg);
 
-        return tournament.getFittest();
+        return currentIndividual;
     }
     
     public static void main(String[] args) {
         Population p = new Population(50, true);
-        int generationCount = 0;
-        double func = p.getFittest().getFunc();
-        while (generationCount < 50) {
-            generationCount++;
-            Individual fittest = p.getFittest();
+        int generations = 0;
+        double func = p.getBest().getFunc();
+        while (generations < 50) {
+            generations++;
+            Individual fittest = p.getBest();
             if (func < fittest.getFunc()) {
                 func = fittest.getFunc();
-                System.out.println("Generation:\t\t" + generationCount + "\t\tFittest: " + fittest);
+                System.out.println("Поколение: " + generations + ", сильнейший: " + fittest);
             }
-            p = GeneticAlgorithm.evolvePopulation(p);
+            p = evolve(p);
         }
 
-        System.out.println("Generations used: " + generationCount);
-        System.out.println("Best solution:");
-        System.out.println(p.getFittest());
+        System.out.println();
+        System.out.println("Всего поколений: " + generations);
+        System.out.println("Лучшее решение:");
+        System.out.println(p.getBest());
 
     }
     
