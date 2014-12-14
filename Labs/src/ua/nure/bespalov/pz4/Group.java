@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Group {
 	ArrayList<Student> students = new ArrayList<>();
 	static BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
-	
+
 	public static String readLine() throws WrongInputException {
 		try {
 			return console.readLine();
@@ -16,16 +16,16 @@ public class Group {
 			throw new WrongInputException();
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Group g = new Group();
 
 		String in = "";
 
-		System.out.println("Вводіть імена студентів і натискайте ENTER після кожного імені. Введіть \"!\" для завершення.");
+		System.out.println("Р’РІРѕРґС–С‚СЊ С–РјРµРЅР° СЃС‚СѓРґРµРЅС‚С–РІ С– РЅР°С‚РёСЃРєР°Р№С‚Рµ ENTER РїС–СЃР»СЏ РєРѕР¶РЅРѕРіРѕ С–РјРµРЅС–. Р’РІРµРґС–С‚СЊ \"!\" РґР»СЏ Р·Р°РІРµСЂС€РµРЅРЅСЏ.");
 		try {
 			while ((in = readLine()) != null &&
-					!in.equals("!") && 
+					!in.equals("!") &&
 					in != "" ){
 				g.students.add(new Student(in));
 			}
@@ -34,7 +34,7 @@ public class Group {
 		}
 
 		System.out.println();
-		System.out.println("Всі студенти:");
+		System.out.println("Р’СЃС– СЃС‚СѓРґРµРЅС‚Рё:");
 		for (Student S : g.students)
 			System.out.println(S);
 	}

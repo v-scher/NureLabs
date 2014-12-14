@@ -1,15 +1,15 @@
 package ua.nure.bespalov.task4;
 
 public abstract class Element {
-	private String m_title; // назва
-	private String m_country; // країна видання
+	private String m_title; // РЅР°Р·РІР°
+	private String m_country; // РєСЂР°С—РЅР° РІРёРґР°РЅРЅСЏ
 
 	protected Element(String _name, String _country)
 	{
 		m_title = _name;
 		m_country = _country;
 	}
-	
+
 	public String getCountry() {
 		return m_country;
 	}

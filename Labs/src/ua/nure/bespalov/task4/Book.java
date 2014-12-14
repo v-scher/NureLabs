@@ -2,8 +2,8 @@ package ua.nure.bespalov.task4;
 
 public class Book extends Element {
 	String m_author;
-	int m_year = -1; // рік видання
-	
+	int m_year = -1; // СЂС–Рє РІРёРґР°РЅРЅСЏ
+
 	public Book(String _name, String _country, int _year, String _author) {
 		super(_name, _country);
 		m_year = _year;
@@ -25,7 +25,7 @@ public class Book extends Element {
 	public void setAuthor(String m_author) {
 		this.m_author = m_author;
 	}
-	
+
 	@Override
 	public String getInfo() {
 		return getAuthor() + ", " + super.getInfo() + ", " + getYear();

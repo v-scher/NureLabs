@@ -3,7 +3,7 @@ package ua.nure.bespalov.task4;
 import java.util.Date;
 
 public class Magazine extends Element {
-	Date m_date; // дата випуску
+	Date m_date; // РґР°С‚Р° РІРёРїСѓСЃРєСѓ
 
 	protected Magazine(String _name, String _country, Date _date) {
 		super(_name, _country);
@@ -20,6 +20,6 @@ public class Magazine extends Element {
 
 	@Override
 	public String getInfo() {
-		return super.getInfo() + ", " + getCountry() + ", " + m_date.getDate() + "." + m_date.getMonth() + "." + m_date.getYear(); 
+		return super.getInfo() + ", " + getCountry() + ", " + m_date.getDate() + "." + m_date.getMonth() + "." + m_date.getYear();
 	}
 }

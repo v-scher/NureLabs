@@ -4,11 +4,11 @@ public class StringPractice {
 	static String first = "first";
 	static String second = "second";
 	static String odd = "abcdcba";
-	
+
 	static void p(Object o){
 		System.out.println(o);
 	}
-	
+
 	public static void main(String[] args) {
 		easy();
 		System.out.println();
@@ -19,34 +19,34 @@ public class StringPractice {
 
 	private static void easy() {
 		String s = first.substring(1) + second.substring(1);
-		p("1. Îá'ºäíàíèé ðÿäîê áåç ïåðøèõ ñèìâîë³â: " + s);
-		
+		p("1. ÐžÐ±'Ñ”Ð´Ð½Ð°Ð½Ð¸Ð¹ Ñ€ÑÐ´Ð¾Ðº Ð±ÐµÐ· Ð¿ÐµÑ€ÑˆÐ¸Ñ… ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ–Ð²: " + s);
+
 		int begin = (odd.length() - 3) / 2;
 		s = odd.substring(begin, begin + 3);
-		p("2. Ñåðåäí³ òðè ë³òåðè ç³ ñëîâà: " + odd + " -> " + s);
+		p("2. Ð¡ÐµÑ€ÐµÐ´Ð½Ñ– Ñ‚Ñ€Ð¸ Ð»Ñ–Ñ‚ÐµÑ€Ð¸ Ð·Ñ– ÑÐ»Ð¾Ð²Ð°: " + odd + " -> " + s);
 		begin = (first.length() - 3) / 2;
 		s = first.substring(begin, begin + 3);
-		p("   Ñåðåäí³ òðè ë³òåðè ç³ ñëîâà: " + first + " -> " + s);
-		
+		p("   Ð¡ÐµÑ€ÐµÐ´Ð½Ñ– Ñ‚Ñ€Ð¸ Ð»Ñ–Ñ‚ÐµÑ€Ð¸ Ð·Ñ– ÑÐ»Ð¾Ð²Ð°: " + first + " -> " + s);
+
 		s =  first.substring(first.length() - 2, first.length()) + first.substring(0, first.length() - 2);
-		p("3. Äâ³ îñòàíí³ ë³òåðè ïåðåíåñåí³ íà ïî÷àòîê: " + first + " -> " + s);
+		p("3. Ð”Ð²Ñ– Ð¾ÑÑ‚Ð°Ð½Ð½Ñ– Ð»Ñ–Ñ‚ÐµÑ€Ð¸ Ð¿ÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ñ– Ð½Ð° Ð¿Ð¾Ñ‡Ð°Ñ‚Ð¾Ðº: " + first + " -> " + s);
 		s =  odd.substring(odd.length() - 2, odd.length()) + odd.substring(0, odd.length() - 2);
-		p("   Äâ³ îñòàíí³ ë³òåðè ïåðåíåñåí³ íà ïî÷àòîê: " + odd + " -> " + s);
+		p("   Ð”Ð²Ñ– Ð¾ÑÑ‚Ð°Ð½Ð½Ñ– Ð»Ñ–Ñ‚ÐµÑ€Ð¸ Ð¿ÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ñ– Ð½Ð° Ð¿Ð¾Ñ‡Ð°Ñ‚Ð¾Ðº: " + odd + " -> " + s);
 	}
 
 	private static void middle() {
 		StringBuilder b = new StringBuilder();
 		for (int i = 0; i < first.length(); i++)
 			b.append(first.charAt(i)).append(first.charAt(i));
-		p("1. Êîæíèé ñèìâîë ïðåäñòàâëåíèé äâîìà: " + first + " -> " + b);
-		
+		p("1. ÐšÐ¾Ð¶Ð½Ð¸Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð» Ð¿Ñ€ÐµÐ´ÑÑ‚Ð°Ð²Ð»ÐµÐ½Ð¸Ð¹ Ð´Ð²Ð¾Ð¼Ð°: " + first + " -> " + b);
+
 		int c = 0;
 		String sentance = "bob is bab";
 		for (int i = 0; i < sentance.length() - 2; i++)
 			if (sentance.charAt(i) == 'b' && sentance.charAt(i + 2) == 'b')
 				c++;
-		p("2. Ê³ëüê³ñòü âõîäæåíü \"b*b\" â ðå÷åííÿ: " + sentance + " -> " + c);
-		
+		p("2. ÐšÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ Ð²Ñ…Ð¾Ð´Ð¶ÐµÐ½ÑŒ \"b*b\" Ð² Ñ€ÐµÑ‡ÐµÐ½Ð½Ñ: " + sentance + " -> " + c);
+
 		String sentance2 = "th*is is sum*mer";
 		b = new StringBuilder();
 		//sentance2 = sentance2.replaceAll("*\**", replacement)
@@ -61,33 +61,33 @@ public class StringPractice {
 				end = i + 2;
 			}
 		b.append(sentance2.substring(end));
-		p("3. Â êîæíîìó ñëîâ³ ç \"*\" âèäàëåí³ ñóñ³äí³ ë³âèé òà ïðàâèé ñèìâîëè: " + sentance2 + " -> " + b);
+		p("3. Ð’ ÐºÐ¾Ð¶Ð½Ð¾Ð¼Ñƒ ÑÐ»Ð¾Ð²Ñ– Ð· \"*\" Ð²Ð¸Ð´Ð°Ð»ÐµÐ½Ñ– ÑÑƒÑÑ–Ð´Ð½Ñ– Ð»Ñ–Ð²Ð¸Ð¹ Ñ‚Ð° Ð¿Ñ€Ð°Ð²Ð¸Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¸: " + sentance2 + " -> " + b);
 	}
 
 	private static void hard() {
 		String sentance = "qqqa qqqS qqqA qqqq wwww qqqw qqqs qqqA";
-		p("1. Ê³ëüê³ñòü ñë³â, ÿê³ çàê³í÷óþòüñÿ íà A àáî S íåçàëåæíî â³ä ðåã³ñòðó: " + sentance + " -> " + (getSuffixNumber(sentance, 'a') + 
+		p("1. ÐšÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ ÑÐ»Ñ–Ð², ÑÐºÑ– Ð·Ð°ÐºÑ–Ð½Ñ‡ÑƒÑŽÑ‚ÑŒÑÑ Ð½Ð° A Ð°Ð±Ð¾ S Ð½ÐµÐ·Ð°Ð»ÐµÐ¶Ð½Ð¾ Ð²Ñ–Ð´ Ñ€ÐµÐ³Ñ–ÑÑ‚Ñ€Ñƒ: " + sentance + " -> " + (getSuffixNumber(sentance, 'a') +
 				+ getSuffixNumber(sentance, 'A') +
-				+ getSuffixNumber(sentance, 's') + 
+				+ getSuffixNumber(sentance, 's') +
 				+ getSuffixNumber(sentance, 'S')));
-		
+
 		String str = "qqq";
-		p("2. Ðÿäîê: " + sentance + ", â ÿêîìó áóäóòü âèäåëåí³ âñ³ âõîäæåííÿ: " + str + " -> " + sentance.replaceAll(str, ""));
+		p("2. Ð ÑÐ´Ð¾Ðº: " + sentance + ", Ð² ÑÐºÐ¾Ð¼Ñƒ Ð±ÑƒÐ´ÑƒÑ‚ÑŒ Ð²Ð¸Ð´ÐµÐ»ÐµÐ½Ñ– Ð²ÑÑ– Ð²Ñ…Ð¾Ð´Ð¶ÐµÐ½Ð½Ñ: " + str + " -> " + sentance.replaceAll(str, ""));
 	}
-	
+
 	static int getSuffixNumber(String sentance, char lastLetter){
 		int i = sentance.indexOf(lastLetter + " ");
 		int c = 0;
-		
+
 		while (i > 0)
 		{
 			c++;
 			i = sentance.indexOf(lastLetter + " ", ++i);
 		}
-		
+
 		if (sentance.endsWith(lastLetter + ""))
 			c++;
-		
+
 		return c;
 	}
 }

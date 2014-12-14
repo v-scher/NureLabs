@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/pz2/StringPractice.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/pz3/Organization.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/pz4/Group.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/task3/WordCounter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/task4/Book.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/task4/Element.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/task4/Library.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/task4/Magazine.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ua/nure/bespalov/task4/Periodic.java" charset="UTF-8" />
+  </component>
 </project>
