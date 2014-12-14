@@ -8,38 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d15ccf1b-43e7-41f5-8b84-5e5ecece4804" name="Default" comment="Bespalov's projects encoding changed to UTF-8.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/nure/course3/MiZUP/coursework/Shcherbatenko/CursMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/GeneticAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Shcherbatenko/Individual.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab2/Kuprienko/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab2/Kuprienko/Pair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Shcherbatenko/Population.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab2/Kuprienko/Rangs.java" />
-      <change type="DELETED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course3\MiZUP\coursework\CursMain.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork3\ScherLinkedList.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course3\MiZUP\coursework\Scherbatenko.java" afterPath="$PROJECT_DIR$/src/ua/nure/course3/MiZUP/coursework/Shcherbatenko/Scherbatenko.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course3\MiZUP\coursework\Work.java" afterPath="$PROJECT_DIR$/src/ua/nure/course3/MiZUP/coursework/Shcherbatenko/Work.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork1\Laba1.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab1/Shcherbatenko/Laba1.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\Animal.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/Animal.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\mammals\Cow.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/mammals/Cow.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\mammals\Dog.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/mammals/Dog.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\mammals\Elephant.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/mammals/Elephant.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\mammals\Mammal.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/mammals/Mammal.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\reptiles\Crocodile.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/reptiles/Crocodile.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\reptiles\Lizard.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/reptiles/Lizard.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\reptiles\Reptilian.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/reptiles/Reptilian.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\KRPPR\LabWork2\reptiles\Snake.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/KRPPR/lab2/Shcherbatenko/reptiles/Snake.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\OAPOS\LabWork3\DistributionEmulationLab.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/OAPOS/lab3/Shcherbatenko/DistributionEmulationLab.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\TRPR\LabWork3\ExtremumUnimodalFunction.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/TRPR/lab3/Shcherbatenko/ExtremumUnimodalFunction.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course4\TRPR\LabWork4\NetAndRandomSearch.java" afterPath="$PROJECT_DIR$/src/ua/nure/course4/TRPR/lab4/Shcherbatenko/NetAndRandomSearch.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\MMO\lab1\DijkstraVSGeneticTreeAlg.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/MMO/lab1/Shcherbatenko/DijkstraVSGeneticTreeAlg.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\NtaGA\lab1\GeneticAlgorithm.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Shcherbatenko/GeneticAlgorithm.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\NtaGA\lab1\Individual.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Individual.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\NtaGA\lab1\Population.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Population.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\TSSA\lab1\Criteria.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab1/Shcherbatenko/Criteria.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\TSSA\lab2\Main.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab2/Shcherbatenko/Main.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\TSSA\lab2\PairComparing.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab2/Shcherbatenko/PairComparing.java" />
-      <change type="MOVED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\TSSA\lab2\Rankings.java" afterPath="$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab2/Shcherbatenko/Rankings.java" />
+      <change type="DELETED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\NtaGA\lab1\Individual.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\StudentsWork\Labs\src\ua\nure\shcherbatenko\course5\NtaGA\lab1\Population.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Labs.iws" />
@@ -74,11 +44,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordCounter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ua/nure/bespalov/task3/WordCounter.java">
+      <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/GeneticAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6263158" vertical-offset="0" max-vertical-offset="1207">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1530">
+              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Individual.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Individual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1870">
+              <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Population.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Population.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37254903" vertical-offset="0" max-vertical-offset="867">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -249,8 +239,38 @@
               <option name="myItemId" value="course5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TSSA" />
+              <option name="myItemId" value="Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shcherbatenko" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,34 +303,8 @@
               <option name="myItemId" value="lab1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ua" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="course5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shcherbatenko" />
+              <option name="myItemId" value="Kuprienko" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,40 +331,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="course4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRPR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ua" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="course4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shcherbatenko" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,6 +363,14 @@
               <option name="myItemId" value="KRPPR" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shcherbatenko" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScherLinkedList.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -426,7 +394,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Shcherbatenko" />
+              <option name="myItemId" value="course4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KRPPR" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -851,7 +823,7 @@
       <workItem from="1418544442908" duration="1788000" />
       <workItem from="1418549784313" duration="1333000" />
       <workItem from="1418558833045" duration="6321000" />
-      <workItem from="1418566815241" duration="566000" />
+      <workItem from="1418566815241" duration="1645000" />
     </task>
     <task id="LOCAL-00001" summary="Bespalov's projects encoding changed to UTF-8.">
       <created>1418567336093</created>
@@ -859,11 +831,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418567336093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Packages refactored.&#10;TSSA lab2 Kuprienko added.">
+      <created>1418567553138</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1418567553138</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74712000" />
+    <option name="totallyTimeSpent" value="75791000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -889,7 +867,7 @@
     <frame x="-280" y="-1089" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -902,7 +880,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16791444" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16791444" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -935,7 +913,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Bespalov's projects encoding changed to UTF-8." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bespalov's projects encoding changed to UTF-8." />
+    <MESSAGE value="Packages refactored.&#10;TSSA lab2 Kuprienko added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Packages refactored.&#10;TSSA lab2 Kuprienko added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,31 +1085,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/GeneticAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8043118" vertical-offset="0" max-vertical-offset="1530">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="924">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29519072" vertical-offset="1267" max-vertical-offset="1870">
-          <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/TSSA/lab2/Shcherbatenko/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="2907">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,6 +1099,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05882353" vertical-offset="0" max-vertical-offset="1003">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,6 +1107,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13725491" vertical-offset="0" max-vertical-offset="1615">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,6 +1115,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05882353" vertical-offset="0" max-vertical-offset="1207">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,6 +1123,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13725491" vertical-offset="0" max-vertical-offset="1581">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,6 +1131,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15686275" vertical-offset="0" max-vertical-offset="3026">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,10 +1227,10 @@
         <state vertical-scroll-proportion="0.078431375" vertical-offset="0" max-vertical-offset="867">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#345#346#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1326,8 +1292,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/nure/bespalov/task3/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6263158" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.41754386" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/GeneticAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1530">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Individual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1870">
+          <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/course5/NtaGA/lab1/Kuprienko/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37254903" vertical-offset="0" max-vertical-offset="867">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
