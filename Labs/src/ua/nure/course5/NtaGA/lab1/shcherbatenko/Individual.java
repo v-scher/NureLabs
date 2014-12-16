@@ -87,17 +87,47 @@ public class Individual implements Comparable<Individual> {
 
     @Override
     public String toString() {
-        return "x1 = " + x1 + ",\t\tx2 = " + x2 + ",\t\tfunc = " + func;
+        return "x1 = " + exactLength(x1) + ",\t\tx2 = " + exactLength(x2) + ",\t\tfunc = " + exactLength(func);
+    }
+
+    public static void main(String[] args) {
+        double d = 123123.1232e12;
+        System.out.println(d);
+        System.out.println(exactLength(d));
+        d = 4.401277016569523;
+        System.out.println(d);
+        System.out.println(exactLength(d));
+    }
+
+    public static String exactLength(double d) {
+        String s = Double.toString(d);
+        if (s.indexOf('e') > 0 || s.indexOf('E') > 0) {
+            return s;
+        }
+        int dot = s.indexOf('.');
+        int LENGTH = 3;
+        if (s.length() - dot < LENGTH) {
+            return s;
+        }
+        return s.substring(0, dot + LENGTH + 1);
     }
 
     public double getDistance(Individual individual) {
-        double x1 = L1 + (R1 - L1) * (genes >> Integer.SIZE) / Integer.MAX_VALUE;
-        double y1 = L2 + (R2 - L2) * ((int) genes) / Integer.MAX_VALUE;
+        double x1 = getX(genes);
+        double y1 = getY(genes);
 
-        double x2 = L1 + (R1 - L1) * (individual.genes >> Integer.SIZE) / Integer.MAX_VALUE;
-        double y2 = L2 + (R2 - L2) * ((int) individual.genes) / Integer.MAX_VALUE;
+        double x2 = getX(individual.genes);
+        double y2 = getY(individual.genes);
 
         return Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+    }
+
+    public double getX(long genes) {
+        return L1 + (R1 - L1) * (genes >> Integer.SIZE) / Integer.MAX_VALUE;
+    }
+
+    public double getY(long genes) {
+        return L2 + (R2 - L2) * ((int) genes) / Integer.MAX_VALUE;
     }
 
     @Override
