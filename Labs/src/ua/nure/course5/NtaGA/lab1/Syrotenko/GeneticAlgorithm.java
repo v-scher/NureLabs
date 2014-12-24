@@ -1,5 +1,4 @@
-package ua.nure.course5.NtaGA.lab1.Shcherbatenko;
-
+package ua.nure.course5.NtaGA.lab1.Syrotenko;
 
 public class GeneticAlgorithm {
 
@@ -12,7 +11,7 @@ public class GeneticAlgorithm {
             Individual child;
             do {
                 Individual parent1 = randomSelection(population);
-                Individual parent2 = inbreedingSelection(population, parent1);
+                Individual parent2 = outbreedingSelection(population, parent1);
                 child = parent1.crossover(parent2);
                 child.mutate();
             } while(nextGeneration.contains(child));
@@ -26,27 +25,27 @@ public class GeneticAlgorithm {
         return p.getIndividual((int) (Math.random() * p.size()));
     }
 
-    private static Individual inbreedingSelection(
+    private static Individual outbreedingSelection(
             Population population,
             Individual firstParent)
     {
-        Individual closest = population.getIndividual(0);
-        double min = Double.MAX_VALUE;
+        Individual farrest = population.getIndividual(0);
+        double max = Double.MIN_VALUE;
 
         Individual individual;
         for (int i = 1; i < population.size(); i++) {
             individual = population.getIndividual(i);
-            if (individual == null || individual.equals(closest))
+            if (individual == null || individual.equals(farrest))
                 continue;
             double dist = firstParent.getDistance(individual);
-            if (dist < min) {
-                min = dist;
-                closest = individual;
+            if (dist > max) {
+                max = dist;
+                farrest = individual;
             }
         }
-        return closest;
+        return farrest;
     }
-    
+
     public static void main(String[] args) {
         Population p = new Population(50, true);
         int generations = -1;

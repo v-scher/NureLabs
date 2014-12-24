@@ -1,4 +1,4 @@
-package ua.nure.course5.NtaGA.lab1.Shcherbatenko;
+package ua.nure.course5.NtaGA.lab1.Syrotenko;
 
 
 import java.util.Random;
@@ -7,8 +7,8 @@ public class Individual implements Comparable<Individual> {
 
     private static final Random R = new Random();
     private static final double
-            L1 = 0.5, R1 = 1.1,
-            L2 = 1.0, R2 = 4.6;
+            L1 = -100, R1 = 100,
+            L2 = -100, R2 = 100;
 
     private long genes = 0;
     private double func = 0;
@@ -34,7 +34,7 @@ public class Individual implements Comparable<Individual> {
     }
 
     private double func(double x1, double x2) {
-        return (-2.0 * Math.pow(x2, 3) + 6 * x2 * x2 + 6 * x2 + 10) * Math.sin(Math.log(x1) * Math.exp(x2) * 3.14/180);
+        return 1 + Math.pow(x1 * x1 + x2 * x2, 0.25) * (Math.sin(50 * Math.pow(x1 * x1 + x2 * x2, 0.1) * 3.14/180) + 1);
     }
 
     public static void main(String[] args) {
@@ -68,7 +68,7 @@ public class Individual implements Comparable<Individual> {
     public void mutate() {
         long n = genes;
         for (int i = 0; i < Long.SIZE - 1; i++) {
-            if (i != 31 && R.nextDouble() <= GeneticAlgorithm.MUTATION_RATE) {
+            if (i != 31 && R.nextDouble() <= ua.nure.course5.NtaGA.lab1.Syrotenko.GeneticAlgorithm.MUTATION_RATE) {
                 n = (((1L << i) & n) == 0)
                         ? n | (1L << i)
                         : n ^ (1L << i);
