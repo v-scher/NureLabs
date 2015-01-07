@@ -15,6 +15,7 @@ public class AdditionalLab {
 		
 		while ( (row = file.readLine()) != null)
 			rows.add(row);
+		file.close();
 		
 		Collections.sort(rows, new Comparator<String>() {
 			@Override

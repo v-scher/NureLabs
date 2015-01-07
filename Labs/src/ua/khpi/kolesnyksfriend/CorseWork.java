@@ -82,6 +82,7 @@ public class CorseWork {
 						break;
 					}
 				}
+				sc.close();
 			}
 			// закриваємо файл
 			reader.close();

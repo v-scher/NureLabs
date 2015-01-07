@@ -6,6 +6,7 @@ import java.util.Date;
 public class Library {
 	ArrayList<Element> m_elements = new ArrayList<>();
 
+	@SuppressWarnings("deprecation")
 	public static void main(String args[])
 	{
 		Library lib = new Library();
@@ -62,6 +63,7 @@ public class Library {
 		return elements;
 	}
 
+	@SuppressWarnings("deprecation")
 	ArrayList<Magazine> getMagazinesByMonthAndYear(int _month, int _year)
 	{
 		ArrayList<Magazine> magazines = new ArrayList<>();
@@ -75,6 +77,7 @@ public class Library {
 		return magazines;
 	}
 
+	@SuppressWarnings("deprecation")
 	ArrayList<Periodic> getPeriodicsByMonthAndYear(int _month, int _year)
 	{
 		ArrayList<Periodic> periodics = new ArrayList<>();

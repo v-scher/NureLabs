@@ -1,7 +1,6 @@
 package ua.khpi.samedova;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeMap;
 

@@ -18,6 +18,7 @@ public class Magazine extends Element {
 		this.m_date = date;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public String getInfo() {
 		return super.getInfo() + ", " + getCountry() + ", " + m_date.getDate() + "." + m_date.getMonth() + "." + m_date.getYear();

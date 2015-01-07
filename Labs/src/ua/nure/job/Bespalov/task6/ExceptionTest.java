@@ -3,6 +3,7 @@ package ua.nure.job.Bespalov.task6;
 public class ExceptionTest {
 	static int k = 0;
 	
+	@SuppressWarnings({ "unused", "null" })
 	public static void main(String[] args) {
 		try {
 			int[] array = new int[2];
